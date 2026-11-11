@@ -5,9 +5,10 @@ function solution(n, numlist) {
 //        numlist[i] % n === 0 ? answer.push(numlist[i]) : ''
 //     }
     numlist.forEach((number) => {
-        if (number % n === 0) {
-            answer.push(number) 
-        }
+        // if (number % n === 0) {
+        //     answer.push(number) 
+        // }
+        number % n === 0 ? answer.push(number) : ''
     })
     return answer;
 }
