@@ -6,4 +6,19 @@ function solution(s1, s2) {
             }
         }
     return answer;
+    
+//     let answer = '';
+
+//     for (let i = 1; i <= 5; i++) {   
+//         for (let j = 1; j <= i; j++) {
+//             answer += '*';
+//         }
+//         answer += '\n';
+//     } 
+//     return answer;
+
+    // for (let k = 1; k <= 5; k++) {
+    //     answer += '*';
+    //     console.log(answer)
+    // }
 }
